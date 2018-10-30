@@ -26,8 +26,8 @@
     [clojusc/twig "0.4.0"]
     [com.stuartsierra/component "0.3.2"]
     [gov.nasa.earthdata/cmr-exchange-common "0.2.0-SNAPSHOT"]
-    [gov.nasa.earthdata/cmr-http-kit "0.1.3-SNAPSHOT"]
-    [metosin/reitit-ring "0.2.4"]
+    [gov.nasa.earthdata/cmr-http-kit "0.1.4-SNAPSHOT"]
+    [metosin/reitit-ring "0.2.5"]
     [org.clojure/clojure "1.9.0"]]
   :manifest {"CMR-Plugin" "service-bridge-app"}
   :jvm-opts ["-XX:-OmitStackTraceInFastThrow"
@@ -75,7 +75,7 @@
       :source-paths ^:replace ["src"]
       :test-paths ^:replace []
       :plugins [
-        [jonase/eastwood "0.3.1"]
+        [jonase/eastwood "0.3.3"]
         [lein-ancient "0.6.15"]
         [lein-bikeshed "0.5.1"]
         [lein-kibit "0.1.6"]
